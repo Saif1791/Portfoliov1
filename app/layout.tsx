@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -36,6 +38,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="favicon" href="/favicon.ico" />
+      </head>
       <body className={inter.className}>
         <ThemeProvider
           attribute="class"
@@ -45,6 +50,8 @@ export default function RootLayout({
         >
           {children}
         </ThemeProvider>
+        <SpeedInsights />
+        <Analytics />
       </body>
     </html>
   );
