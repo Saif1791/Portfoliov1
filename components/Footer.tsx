@@ -6,13 +6,13 @@ import { BiMessageRounded } from "react-icons/bi";
 
 const Footer = () => {
   return (
-    <footer className="w-full pb-10 mb-96 md:mb-5" id="contact">
-      <div className="flex flex-col items-center">
+    <footer className="w-full pb-10 mb-32 md:mb-5" id="contact">
+      <div className="flex flex-col items-center gap-4">
         <h1 className="heading text-2xl md:text-4xl text-center font-bold">
           Let&apos;s Build Your Digital{" "}
           <span className="text-purple">Future</span> Together
         </h1>
-        <p className="mt-2 md:text-sm text-white-200 text-center">
+        <p className="md:text-sm text-white-200 text-center">
           Message me and let&apos;s begin crafting the digital presence of your
           dreams right away!
         </p>
@@ -23,8 +23,8 @@ const Footer = () => {
             position={"left"}
           />
         </a>
-        <p className="text-xs mt-14">&copy;2024 Saif Z. All rights reserved.</p>
-        <div className="flex flex-row gap-4 justify-center items-center py-8">
+        <p className="text-xs mt-7">&copy;2024 Saif Z. All rights reserved.</p>
+        <div className="flex flex-row gap-4 justify-center items-center py-4">
           {socialMedia.map((item) => (
             <div
               key={item.id}
