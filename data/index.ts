@@ -170,7 +170,7 @@ export const projects = [
   {
     id: 4,
     title: "Zakir Hussain Leathers - E-Commerce Site",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    des: "Zakir Hussain Leathers is an e-commerce site, featuring different sections and products for users to shop.",
     img: "/zakirleathers.png",
     iconLists: [
       {
@@ -195,6 +195,20 @@ export const projects = [
       },
     ],
     link: "https://zakirleathers.netlify.app/",
+  },
+  {
+    id: 5,
+    title: "Zengravitas",
+    des: "Crafted a landing page for a Client Company, Zengravitas.",
+    img: "/zengravitas.png",
+    iconLists: [
+      {
+        id: 1,
+        name: "NextJS",
+        image: "/next.svg",
+      },
+    ],
+    link: "https://www.zengravitas.com",
   },
 ];
 
@@ -272,11 +286,11 @@ export const socialMedia = [
   {
     id: 1,
     image: "/github.svg",
-    link:"https://github.com/Saif1791"
+    link: "https://github.com/Saif1791",
   },
   {
     id: 2,
     image: "/link.svg",
-    link:"https://www.linkedin.com/in/muhammadsaifz"
+    link: "https://www.linkedin.com/in/muhammadsaifz",
   },
 ];
