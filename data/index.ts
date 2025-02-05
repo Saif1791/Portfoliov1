@@ -1,6 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
+  { name: "Work Experience", link: "#work" },
   { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
@@ -272,16 +273,6 @@ export const companies = [
   },
 ];
 
-export const workExperience = [
-  {
-    id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
-    className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
-  },
-];
-
 export const socialMedia = [
   {
     id: 1,
@@ -292,5 +283,18 @@ export const socialMedia = [
     id: 2,
     image: "/link.svg",
     link: "https://www.linkedin.com/in/muhammadsaifz",
+  },
+];
+
+export const workExperience = [
+  {
+    title: "2025",
+    company: "HAL Simplify Solutions",
+    position: "Programmer Analyst Intern",
+  },
+  {
+    title: "2024",
+    company: "HAL Simplify Solutions",
+    position: "Flutter Developer Intern",
   },
 ];
